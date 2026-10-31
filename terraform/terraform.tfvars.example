@@ -1,0 +1,10 @@
+# Copy to terraform.tfvars and fill in. Never commit real secrets.
+subscription_id   = "00000000-0000-0000-0000-000000000000"
+name_prefix       = "erpplat"
+environment       = "dev"
+location          = "southeastasia"
+node_count        = 2
+vm_size           = "Standard_B2s"
+pg_admin_login    = "pgadmin"
+pg_admin_password = "change-me-use-a-secret-manager"
+pg_sku            = "B_Standard_B1ms"
