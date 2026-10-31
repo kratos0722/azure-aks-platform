@@ -1,0 +1,6 @@
+apiVersion: v2
+name: erp-api
+description: Helm chart deploying the ERP Integration API to AKS
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
