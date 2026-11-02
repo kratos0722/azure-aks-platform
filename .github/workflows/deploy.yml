@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout infra
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Checkout application
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ env.APP_REPO }}
           path: app
